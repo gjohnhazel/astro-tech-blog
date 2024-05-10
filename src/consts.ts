@@ -18,12 +18,12 @@ type SocialLink = {
 }
 
 export const siteConfig: Config = {
-  title: "Astro Theme Cody",
+  title: "John Hazel Nerd Blog",
   description: "",
   lang: "en-GB",
   profile: {
-    author: "Amy Dang",
-    description: "your bio description"
+    author: "John Hazel",
+    description: "this is me"
   }
 }
 
@@ -36,17 +36,17 @@ export const socialLinks: Array<SocialLink> = [
   {
     icon: "mdi:github",
     friendlyName: "Github",
-    link: "https://github.com/kirontoo/astro-theme-cody",
+    link: "https://github.com/gjohnhazel",
   },
   {
     icon: "mdi:linkedin",
     friendlyName: "LinkedIn",
-    link: "#",
+    link: "https://www.linkedin.com/in/gjohnhazel/",
   },
   {
     icon: "mdi:email",
     friendlyName: "email",
-    link: "mailto:ndangamy@gmail.com",
+    link: "mailto:john@johnhazel.com",
   },
   {
     icon: "mdi:rss",
