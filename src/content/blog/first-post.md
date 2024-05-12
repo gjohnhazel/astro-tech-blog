@@ -10,7 +10,7 @@ updatedDate: 'May 10 2024'
 series: "journal"
 ---
 
-I'm starting this blog because I feel I like to go deep down the technical rabbit hole frequently, and I want my primary blog to maintain accessibility.
+I'm starting this blog because I feel that I like to go deep down the technical rabbit hole frequently, and I want my primary blog to maintain accessibility.
 
 Soooo I'm deep down this Astro rabbit hole. I'm enjoying it quite a bit. Thanks [Matthias](https://com-git-astro-iammatthias-team.vercel.app/)!
 
