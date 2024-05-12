@@ -6,7 +6,7 @@ heroImage:
     url: '/blog-placeholder-about.jpg'
     alt: 'GitHub wallpaper'
 platform: Web
-stack: ['vscode-icons:file-type-astro', 'vscode-icons:file-type-js', 'logos:vercel-icon', 'simple-icons:obsidian']
+stack: ['vscode-icons:file-type-astro', 'vscode-icons:file-type-js', 'logos:vercel-icon', 'simple-icons:obsidian', 'logos:github-icon']
 website: https://portfolio.johnhazel.com
 github: https://github.com/gjohnhazel/astro-blog
 order: 2
