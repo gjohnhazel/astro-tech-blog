@@ -1,14 +1,17 @@
 ---
-title: 'Project 4'
-description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci'
-pubDate: 'Jun 08 2003'
+title: 'Astro WP'
+description: 'Using WordPress as a headless CMS'
+pubDate: 'May 12 2024'
 heroImage:
     url: '/blog-placeholder-about.jpg'
     alt: 'GitHub wallpaper'
 platform: Web
-stack: ['Astro', 'JS']
-website: https://github.com/kirontoo/astro-theme-cody
-github: https://github.com/kirontoo/astro-theme-cody
+stack: ['vscode-icons:file-type-astro', 'vscode-icons:file-type-js', 'vscode-icons:file-type-php', 'logos:wordpress-icon']
+website: https://github.com/JEverhart383/astro-wordpress-starter
+github: https://github.com/gjohnhazel/astro-wp
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus a tortor at molestie. Sed pellentesque leo auctor, auctor lorem nec, venenatis risus. Vivamus commodo ipsum vitae orci finibus, vel porta nunc viverra. In hac habitasse platea dictumst. Nunc pretium, ligula ultricies consequat sollicitudin, enim ex ullamcorper nisl.
+So I had to make a couple tweaks to the astro-wordpress-starter because the Navigation Menu of WordPress has changed in the last year since he built it.
+I submitted my first [Issue](https://github.com/JEverhart383/astro-wordpress-starter/issues/18) and [Pull Request](https://github.com/JEverhart383/astro-wordpress-starter/pull/19) on someone else's repository!
+Between setting up two blogs and submitted that Issue & PR, these represent significant shifts in my approach to life, work, and technology from focusing inward to focusing outward.
+I also learned a valuable lesson - when cloning someone's repo, check the most recent outstanding Issues & PRs, especially if you run into issues.
