@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Base.astro';
+import { Icon } from "astro-icon";
 ---
 
 <Layout
@@ -9,8 +10,9 @@ import Layout from '../layouts/Base.astro';
 >
 	<h1 class="title">About</h1>
 	<p>
-		Hi, I'm a Astro theme. I'm particularly great for starting a blog or a 
-		portfolio. 
+		Hi, I'm John Hazel. I've been a nerd my whole life. I taught myself HTML when I was 11, then Flash Animation for a moment, Adobe Photoshop, then in high school I studied C++, Java, and Oracle.
+		Since then I've made a career out of teaching myself whatever I need to learn to get the job done. I love automation, quick scripts to speed things up. I love helping people become more efficient.
+		In addition to Technology, I'm intrigued by Psychology. I desire to help people become their favorite version of themselves, as I strive to do the same.
 		<div>
 			I was based on two other themes:
 			<a 
@@ -29,27 +31,43 @@ import Layout from '../layouts/Base.astro';
 		</div>
 	</p>
 
-	<h2 class="title mt-4">Here are my built-in features:</h2>
+	<h2 class="title mt-4">A Few Tidbits</h2>
 	<ul class="list-inside list-disc">
-		<li>Looks great on any device</li>
-		<li>Fully Responsive</li>
-		<li>Comes light and dark mode</li>
-		<li>Easy to customize and add content</li>
-		<li>Built with tailwindcss</li>
-		<li>Pin posts and projects</li>
+		<li><a href="https://www.workinggenius.com/" target="_blank">Working Genius:</a> Invention, Wonder</li>
+		<li><a href="https://personalityhacker.com" target="_blank">Myers Briggs:</a> INTP</li>
+		<li>Passions: Technology, Psychology</li>
+		<li>Code Languages & Frameworks: PHP, Python, JS, CSS, Astro, WordPress, Laravel, Roots.io, Tailwind, Flutter and more</li>
+		<li>Other Technologies: Networking, Server Administration, </li>
+	</ul>
+	<h2 class="title mt-4">Websites</h2>
+	<ul class="list-inside list-disc">
+		<li><a href="https://linktree.johnhazel.com" target="_blank">My Personal Linktree</a></li>
+		<li><a href="https://johnhazel.com" target="_blank">JohnHazel.com - My Portfolio</a></li>
+		<li><a href="https://hazelize.com" target="_blank">Hazelize.com - Web Design & Development</a></li>
+		<li><a href="https://churchpl.us" target="_blank">Churchpl.us - Technology & Leadership Coaching for Ministry Leaders</a></li>
+		<li><a href="https://blog.johnhazel.com" target="_blank">My Personal Blog</a></li>
 	</ul>
 	<p class="mt-4">
-		Clone or fork my 
+		<span style="float: left;">
+			<Icon 
+				class="h-6 w-6 text-textColor" 
+				name={`logos:github-icon`} 
+				focusable="false"
+				title="GitHub"
+			/>
+			
+		</span>
+		&nbsp;Clone or fork my 
 		<a
 			class="cody-link inline-block"
-			href="https://github.com/kirontoo/astro-theme-cody"
+			href="https://github.com/gjohnhazel/astro-tech-blog"
 			target="_blank"
 			rel="noopener noreferrer"
 			aria-label="github repository"
 		>
 			repo
 		</a>
-		if you like me!
+		if you like this blog and want to try out Astro!
 	</p>
 </Layout>
 
